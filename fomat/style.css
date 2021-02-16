@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+.top{
+    position: relative;
+    text-align: center;
+    color: black;
+    font: 0.5em Arial;
+    font-size: 20pt;
+    font-weight: bold;
+    padding-bottom: 15px;
+    
+    
+   
+}
+
+body, html {
+    height: 100%;
+    background-color:#EEEEEE;
+    /*background: url(../image/pexels-ben-neale-380330.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;*/
+   
+        }
+  
+.text-image{
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 50%;
+    padding: 20px;
+    text-align: center;
+
+}
+.bg-image{
+    background-color: #C6E2FF;
+}
+    .bg-image img{
+        width: 100%;
+        height: 350px; 
+    }
+    .navbar{
+        width: 100%;
+        background-color:#778899;
+        overflow: auto;
+        
+    }
+    .navbar a{
+        float: left;
+        padding: 10px;
+        color: #fff;
+        font-size: 18px;
+        width: 22%;
+        text-align: center;
+
+    }
+    .navbar a:hover {
+        background-color:#555555;
+      }
+    .list-ct{
+        padding-top: 30px;
+    }
+      .list-ct h2{
+        text-align: center;
+        font-size: 36px;
+        color: red;
+
+    }
+    .link-script{
+        padding-left: 15px;
+        padding-top: 12px;
+        position:absolute;
+
+    }
+    .thumbai .img-responsiver{
+        max-width: 250pt;
+        height: auto;
+        display: inline-block;
+       
+    }
+    a{
+        color: red;
+        font-size: 18px;
+        line-height: 1.1;
+        font-family: inherit;
+        font-weight: 500;
+    }
+    .thumbai{
+        position: relative;
+        display: inline-block;
+        text-align: center;
+        border: 1px solid white;
+        text-decoration: none;
+        border: unset;
+    }
+     
+    
+    
+    
+
