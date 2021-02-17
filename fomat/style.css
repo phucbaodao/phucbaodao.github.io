@@ -85,8 +85,8 @@ body, html {
     .thumbai .img-responsiver{
         padding-left: 20px;
         padding-right: 40px;
-        max-width: 250pt;
-        height: auto;
+        width: 250pt;
+        height: 140px;
         display: inline-block;
        
     }
