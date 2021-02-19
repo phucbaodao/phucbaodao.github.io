@@ -18,7 +18,7 @@
 
 body, html {
     height: 100%;
-    background-color:#EEEEEE;
+    background-color:#181818;
     /*background: url(../image/pexels-ben-neale-380330.jpg);
     background-position: center;
     background-repeat: no-repeat;
@@ -49,7 +49,7 @@ body, html {
         width: 100%;
         height: 350px; 
     }
-    .navbar{
+    /*.navbar{
         width: 100%;
         background-color:#778899;
         overflow: auto;
@@ -67,13 +67,14 @@ body, html {
     .navbar a:hover {
         background-color:#555555;
       }
+      */
     .list-ct{
         padding-top: 30px;
     }
       .list-ct h2{
         text-align: center;
         font-size: 36px;
-        color: red;
+        color: yellow;
 
     }
     .link-script{
@@ -83,20 +84,19 @@ body, html {
 
     }
     .thumbai .img-responsiver{
-        padding-left: 20px;
-        padding-right: 40px;
-        width: 250pt;
-        height: 140px;
+        max-width: 250pt;
+        height: auto;
         display: inline-block;
        
     }
-    a{
+    /*a{
         color: red;
         font-size: 18px;
         line-height: 1.1;
-        font-family: inherit;
+        
         font-weight: 500;
     }
+    */
     .thumbai{
         position: relative;
         display: inline-block;
@@ -107,6 +107,52 @@ body, html {
     }
      
     
-    
-    
+    .menu-mega{
+        z-index: 3;
+        padding-top: 50px;
+        padding-left: 0;
+        padding-right: 0;
+        
+    }
 
+    .default-menu td{
+        width: auto;
+        min-width: 230px;
+        height: 75px;
+        text-align: center;
+        font-size: 16px;
+        text-transform: uppercase;
+    }
+    .default-menu tr{
+        max-width: 1170px;
+        height: auto;
+    }
+    .default-menu{
+        display: flex;
+        justify-content: center;
+    }
+    
+     a{
+        text-decoration: none;
+        text-align: center;
+        background: #252525;
+        color: #AAA;
+
+        
+    }
+    a:hover{
+        background: #ffe100 !important;
+        color: #181818;
+        transition: 400ms ease;
+        overflow: hidden;
+
+    }
+    td>a{
+        border-left: 4px solid #181818;
+        padding: 26px 17px;
+        font-weight: 900;
+        display: flex;
+        justify-content: center;
+        
+    }
+   
