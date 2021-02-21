@@ -19,7 +19,8 @@
 body, html {
     height: 100%;
     background-color:#181818;
-    /*background: url(../image/pexels-ben-neale-380330.jpg);
+    /* old codes
+    background: url(../image/pexels-ben-neale-380330.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;*/
@@ -43,7 +44,7 @@ body, html {
 
 }
 .bg-image{
-    background-color: #C6E2FF;
+    background-color:#181818;
 }
     .bg-image img{
         width: 100%;
@@ -79,7 +80,7 @@ body, html {
     }
     .link-script{
         padding-left: 15px;
-        padding-top: 12px;
+        padding-top: 30px;
         position:absolute;
 
     }
@@ -89,7 +90,7 @@ body, html {
         display: inline-block;
        
     }
-    /*a{
+    /*a{ old codes
         color: red;
         font-size: 18px;
         line-height: 1.1;
@@ -112,13 +113,14 @@ body, html {
         padding-top: 50px;
         padding-left: 0;
         padding-right: 0;
+        padding-bottom: 30px;
         
     }
 
     .default-menu td{
         width: auto;
         min-width: 230px;
-        height: 75px;
+        height: 50px;
         text-align: center;
         font-size: 16px;
         text-transform: uppercase;
@@ -132,7 +134,7 @@ body, html {
         justify-content: center;
     }
     
-     a{
+    .baitap a,.about a,.content a{
         text-decoration: none;
         text-align: center;
         background: #252525;
@@ -140,14 +142,15 @@ body, html {
 
         
     }
-    a:hover{
+    .link-script a:hover,.menu-mega a:hover
+    {
         background: #ffe100 !important;
         color: #181818;
         transition: 400ms ease;
         overflow: hidden;
 
     }
-    td>a{
+   .default-menu tr td>a{
         border-left: 4px solid #181818;
         padding: 26px 17px;
         font-weight: 900;
