@@ -1,0 +1,43 @@
+.resouces .link-sc {
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.title-table {
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.title-table h3 {
+    font-size: 28px;
+
+}
+
+.table-link-sc {
+    background: #333;
+    font-weight: 650;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.table-link-sc td {
+    min-width: 400px;
+    width: auto;
+    color: #aaa;
+
+}
+
+.table-link-sc tr {
+    width: auto;
+    height: 50px;
+}
+
+.table-link-sc td a:hover {
+    background: #ffe100 !important;
+    color: #181818;
+    transition: 400ms ease;
+    overflow: hidden;
+
+}

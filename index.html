@@ -1,53 +1,44 @@
 <!DOCTYPE html>
-<html lang="vi-VN">
+<html lang="vi">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./fomat/style-index.css">
-    
-    <title>Home</title>
+    <link rel="stylesheet" href="style-index.css">
+    <link rel="stylesheet" href="./fomat-vews/defaul-view.css">
+    <title>Phuc Ba Dao</title>
 </head>
+
 <body>
-    <div class="content">
-    
-    <div class="top">
-        <div class="bg-image">
-            <img src="./image/2190954.jpg">
+    <div class="default-view-page">
+        <div class="hero-image">
+            <img src="Image/stretched-1280-1024-1073923.jpg" alt="">
         </div>
-        <div class="text-image">
-            <span>Phuc Ba Dao</span>
-            <h3>Full-Stack Developer</h3>
+        <div class="menu">
+            <ul>
+                <li><a href="index.html">home</a></li>
+                <li><a href="resources.html">Link hữu ích</a></li>
+                <li><a href="#" onclick="infobt()" ;>Bài tập</a></li>
+                <li><a href="#" onclick="about()" ;>about</a></li>
+            </ul>
         </div>
     </div>
-    <!-- 
-        old codes
-    <div class="navbar">
-        <a class = "active" href=".//index.html">Home</a>
-        <a class = "sub-content" href=".//contents/link-sub.html">Bài tập</a>
-        <a class = "library" href="./contents/link-sub.html">link hữu ích</a>
-        <a class = "info" href=".//contents/link-sub.html">About</a>
-    </div>-->
-    <div class="menu-mega">
-        <table class="default-menu">
-        <tr>
-            <td><a href="./index.html">Home</a></td>
-            <td> <a href=".//contents/baitap.html">Bài Tập</a></td>
-            <td ><a href=".//contents/content-page-link.html">Link Tài nguyên</a></td>
-            <td><a href="./contents/About.html">About</a> </td>
-        </tr>
-    </table>
-    </div>
-    <div class="list-ct">
-        <h2>Các Khóa Học miễn phí</h2>
-        <div class="link-script"> 
-            
-        <a href="https://www.youtube.com/playlist?list=PLLAJJPGNwNkghoNSB9xq22EJ_Z1rX7Ygs"  class="thumbai" target="_blank">
-        <img class="img-responsiver" src="./image/web.jpeg" alt="Lập Trình Web"><h4>Lập Trình Web</h4></a>
-          
+
+    <div class="home-view-page">
+
+        <div class="text-center">
+            <h2>PlayList học Lập Trình</h2>
+        </div>
+        <div class="list-content-link">
+            <div class="content-link">
+                <a href="https://www.youtube.com/playlist?list=PLLAJJPGNwNkghoNSB9xq22EJ_Z1rX7Ygs" target="_blank" rel="noopener noreferrer"><img src="./Image/30.png" class="image">Học Lập Trình Website từ A đến Z</a>
+
+            </div>
 
         </div>
     </div>
-    </div>
+    <script src="script/alert.js"></script>
 </body>
+
 </html>
